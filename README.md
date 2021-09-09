@@ -19,7 +19,7 @@
 # Step3: Get TF-gene pairs for each tissue.
 
 ## s3.1 overlap the predicted TF binding regions (outputs of step1) with the DNase footprints of each tissue (outputs of step2).
-
+## &
 ## s3.2 overlap predicted motif region of a TF with the +/-10kb region surrounding a gene's transcriptional starting site.
 
 ./s3/*tissues*/tf1-12.R: correspond to predicted TF binding regions using 12 JASPAR motif subfiles.
@@ -27,10 +27,10 @@
 
 # Step4: filter TF-gene pair for each tissue.
 
-## 4.1 get expressed genes (TPM >0.1 in at least 25% samples) in each tissue using GTEx data.
+## s4.1 get expressed genes (TPM >0.1 in at least 25% samples) in each tissue using GTEx data.
 ./s4/s4.1_gtex_exp.R 
 
-## 4.2 filter TF-gene pair based on expressed genes and Pearson correlation and Lasso regression.
+## s4.2 filter TF-gene pair based on expressed genes and Pearson correlation and Lasso regression.
 
 ./s4/s4.2_*tissue*_tf_combine.R; 
 
