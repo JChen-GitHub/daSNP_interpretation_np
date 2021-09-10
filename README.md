@@ -42,10 +42,15 @@ wgcna_expgene.R
 ####################################################################
 # III. TWAS
 
-
+TWAS_MetaXcan.sh
 
 ####################################################################
 # IV. MAGMA, H-MAGMA, nMAGMA
+
+1_create_gene_and_re_annot_file.sh
+2_create_H-MAGMA_annot.R
+3_create_nMAGMA_annot.R
+4_running_MAGMA_H-MAGMA_nMAGMA.sh
 
 
 
