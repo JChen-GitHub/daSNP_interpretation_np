@@ -22,8 +22,9 @@ TRN/s2/s2.2_dnase_seq_file_cellline.sh
 ## &
 ## s3.2 overlap predicted motif region of a TF with the +/-10kb region surrounding a gene's transcriptional starting site.
 
-TRN/s3/*tissues*/tf1-12.R: correspond to predicted TF binding regions using 12 JASPAR motif subfiles.
-TRN/s3/*tissues*/tf_h1.R and tf_s1.R correspond to HOMOCOMO and Swiss Regulon motif file, seperately.
+### use adult_cortex as an examples; for other tissues, the scripts are similar
+TRN/s3/adult_cortex/tf1-12.R: correspond to predicted TF binding regions using 12 JASPAR motif subfiles.
+TRN/s3/adult_cortex/tf_h1.R and tf_s1.R correspond to HOMOCOMO and Swiss Regulon motif file, seperately.
 
 # Step4: filter TF-gene pair for each tissue.
 
