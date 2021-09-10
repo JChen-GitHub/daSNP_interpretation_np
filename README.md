@@ -38,7 +38,9 @@ TRN/s4/s4.2_*tissue*_tf_combine.R;
 ####################################################################
 # II. Construction of GCN (Gene Co-experession Networks)
 
-WGCNA/wgcna_expgene.R
+WGCNA/gtex_wgcna.R # extract expressed genes in each tissue, to be used in network construction and decomposition
+
+WGCNA/wgcna_expgene.R # perform WGCNA, to do network construction and decomposition
 
 ####################################################################
 # III. TWAS
