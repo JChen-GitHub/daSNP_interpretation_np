@@ -1,5 +1,14 @@
 # daSNP_interpretation_np
 
+###################################################################
+
+This work has been online at _Molecular Psychiatry_, as of Apr 4th, 2022, under the title "Disrupted long-range gene regulations elucidate shared tissue-specific mechanisms of neuropsychiatric disorders" (10.1038/s41380-022-01529-3).
+
+The article can be found at https://www.nature.com/articles/s41380-022-01529-3.
+Full text (view-only) can be accessed at https://rdcu.be/cKDPd. 
+
+
+
 ####################################################################
 # I. Construction of TRN (Transcriptional Regulatory Networks)
 
